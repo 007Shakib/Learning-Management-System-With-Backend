@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="../images/programming_2620993.png" type="image/x-icon">
+<link rel="stylesheet" href="practice.css">
+<title>Online Learning Platform</title>
+</head>
+
+<body>
+
+<div class="overlay">
+
+<nav>
+    <div><b style="font-size:22px;">HTML Practice</b></div>
+    <div>Learn • Practice • Build</div>
+</nav>
+
+<div class="container">
+
+<div class="sidebar">
+    <h3>HTML Tags A–Z</h3>
+
+    <ul id="tagList"></ul>
+
+</div>
+
+<div class="content" id="contentBox">
+    <h2>Click any tag from left list</h2>
+    <p>Details will appear here.</p>
+</div>
+
+</div>
+
+</div>
+
+<script src="../script.js"></script>
+
+<script>
+fetch(new URL('practice/data/html.json', _base).href)
+.then(response => response.json())
+.then(tags => {
+
+    let list = "";
+    for(let t of tags){
+        list += `<li onclick="show('${t.name}')">${t.tag}</li>`;
+    }
+
+    document.getElementById("tagList").innerHTML = list;
+
+    window.show = function(name){
+        const item = tags.find(x => x.name === name);
+        document.getElementById("contentBox").innerHTML =
+        `<h2>${item.tag}</h2><p>${item.description}</p>`;
+    };
+});
+</script>
+
+
+</body>
+</html>

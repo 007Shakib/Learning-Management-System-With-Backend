@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout - LMS</title>
+    <link rel="stylesheet" href="log-reg.css">
+</head>
+<body>
+<div class="auth-bg">
+    <div class="auth-box">
+        <h2>Logged Out</h2>
+        <p>You have been logged out successfully.</p>
+        <p><a href="login.html">Login Again</a></p>
+        <script>
+          localStorage.removeItem('user');
+        </script>
+    </div>
+</div>
+</body>
+</html>

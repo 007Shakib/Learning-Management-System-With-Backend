@@ -1,0 +1,15 @@
+[
+  {"name":"html","tag":"&lt;html&gt;","description":"<p>&lt;html&gt;&lt;head&gt;&lt;title&gt;My Page&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Content&lt;/body&gt;&lt;/html&gt;</p>"},
+  {"name":"head","tag":"&lt;head&gt;","description":"<p>&lt;head&gt;&lt;title&gt;Page Title&lt;/title&gt;&lt;/head&gt;</p>"},
+  {"name":"title","tag":"&lt;title&gt;","description":"<p>&lt;title&gt;Home Page&lt;/title&gt;</p>"},
+  {"name":"body","tag":"&lt;body&gt;","description":"<p>&lt;body&gt;This is the visible content.&lt;/body&gt;</p>"},
+  {"name":"h1","tag":"&lt;h1&gt;","description":"<p>&lt;h1&gt;Welcome to My Website&lt;/h1&gt;</p>"},
+  {"name":"h2","tag":"&lt;h2&gt;","description":"<p>&lt;h2&gt;Section Title&lt;/h2&gt;</p>"},
+  {"name":"p","tag":"&lt;p&gt;","description":"<p>&lt;p&gt;This is a paragraph.&lt;/p&gt;</p>"},
+  {"name":"a","tag":"&lt;a&gt;","description":"<p>&lt;a href='https://example.com'&gt;Visit Example&lt;/a&gt;</p>"},
+  {"name":"img","tag":"&lt;img&gt;","description":"<p>&lt;img src='image.jpg' alt='Lamp' width='32' height='32'&gt;</p>"},
+  {"name":"br","tag":"&lt;br&gt;","description":"<p>Hello&lt;br&gt;World</p>"},
+  {"name":"hr","tag":"&lt;hr&gt;","description":"<p>&lt;hr&gt;</p>"},
+  {"name":"ul","tag":"&lt;ul&gt;","description":"<p>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ul&gt;</p>"},
+  {"name":"ol","tag":"&lt;ol&gt;","description":"<p>&lt;ol&gt;&lt;li&gt;First&lt;/li&gt;&lt;li&gt;Second&lt;/li&gt;&lt;/ol&gt;</p>"}
+]

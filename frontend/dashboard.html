@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Dashboard - LMS</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="includes/page-styles.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><a href="index.html">LMS</a></div>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="courses/courses.html">Courses</a>
+            <a href="tutorial/tutorial.html">Tutorials</a>
+            <a href="certificate/certificate.html">Certificate</a>
+            <a href="enroll/enroll.html">Enroll</a>
+        </nav>
+        <div class="auth">
+            <a href="profile.html">Profile</a>
+            <a href="logreg/logout.html">Logout</a>
+        </div>
+    </header>
+
+    <main class="page">
+        <div class="dashboard-card">
+            <h2 id="dashboardGreeting">Welcome, User!</h2>
+            <p id="dashboardRole">User Type: Student</p>
+        </div>
+
+        <section class="dashboard-grid" id="studentSection">
+            <div class="dashboard-card">
+                <h3>Your Courses</h3>
+                <p>Quick access to enrolled courses.</p>
+                <a class="btn small" href="courses/courses.html">View Courses</a>
+            </div>
+            <div class="dashboard-card">
+                <h3>Tutorials</h3>
+                <p>Browse tutorials and videos.</p>
+                <a class="btn small" href="tutorial/tutorial.html">View Tutorials</a>
+            </div>
+            <div class="dashboard-card">
+                <h3>Certificates</h3>
+                <p>View your earned certificates.</p>
+                <a class="btn small" href="certificate/certificate.html">View Certificates</a>
+            </div>
+        </section>
+
+        <section class="dashboard-grid" id="instructorSection" style="display:none;">
+            <div class="dashboard-card">
+                <h3>Manage Courses</h3>
+                <p>Create and update your course content.</p>
+                <a class="btn small" href="courses/courses.html">Manage Courses</a>
+            </div>
+            <div class="dashboard-card">
+                <h3>Student Progress</h3>
+                <p>See student activity and assignments.</p>
+                <a class="btn small" href="enroll/enroll.html">View Enrollments</a>
+            </div>
+        </section>
+
+        <section class="dashboard-grid" id="adminSection" style="display:none;">
+            <div class="dashboard-card">
+                <h3>Admin Panel</h3>
+                <p>Control users, courses and platform settings.</p>
+                <a class="btn small" href="profile.html">Admin Tools</a>
+            </div>
+            <div class="dashboard-card">
+                <h3>Reports</h3>
+                <p>View platform metrics and system logs.</p>
+                <a class="btn small" href="certificate/certificate.html">View Reports</a>
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

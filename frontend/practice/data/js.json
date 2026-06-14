@@ -1,0 +1,15 @@
+[
+  {"name":"variables","tag":"Variables","description":"Store values.<br><code>let x = 5;</code>"},
+  {"name":"const","tag":"const","description":"Constant variable value."},
+  {"name":"let","tag":"let","description":"Block scoped variable."},
+  {"name":"function","tag":"Function","description":"Reusable block of code.<br><code>function add(a,b){return a+b;}</code>"},
+  {"name":"arrow","tag":"Arrow Function","description":"Short function syntax.<br><code>const x = () =&gt; 5;</code>"},
+  {"name":"array","tag":"Array","description":"List of values.<br><code>[1,2,3]</code>"},
+  {"name":"object","tag":"Object","description":"Key–value pairs.<br><code>{name:'Ali'}</code>"},
+  {"name":"if","tag":"if statement","description":"Condition check."},
+  {"name":"else","tag":"else statement","description":"Alternative condition."},
+  {"name":"switch","tag":"switch","description":"Multiple conditions."},
+  {"name":"for","tag":"for loop","description":"Repeat block of code."},
+  {"name":"while","tag":"while loop","description":"Loop until condition false."},
+  {"name":"do-while","tag":"do…while","description":"Runs once then checks."}
+]

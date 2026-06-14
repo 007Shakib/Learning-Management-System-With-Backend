@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background-image: url("../images/pexels-codioful-7135067.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.overlay{
+    background: rgba(0,0,0,0.55);
+    min-height:100vh;
+    padding:20px;
+}
+.container{
+    display:flex;
+    gap:20px;
+}
+.sidebar, .content{
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.15);
+    border-radius:20px;
+    padding:20px;
+    color:white;
+}
+.sidebar{ width:25%; }
+.content{ flex:1; }
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 25px;
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.2);
+    border-radius:20px;
+    margin-bottom:20px;
+    color:white;
+}
+.sidebar ul li{
+    list-style:none;
+    padding:8px 0;
+    cursor:pointer;
+}
+.sidebar ul li:hover{
+    color:#ffdd57;
+}

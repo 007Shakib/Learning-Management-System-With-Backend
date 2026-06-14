@@ -1,0 +1,24 @@
+/* Page-specific tweaks to match homepage look */
+main.page { max-width: 1100px; margin: 120px auto 80px; padding: 24px; background: rgba(255,255,255,0.85); border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.25); }
+
+.profile-card, .dashboard-card { padding: 18px; border-radius: 10px; background: rgba(255,255,255,0.9); box-shadow: 0 8px 18px rgba(0,0,0,0.12); margin-bottom: 18px; }
+
+.profile-actions { display:flex; gap:12px; margin-top:12px; }
+.profile-actions a, .btn.small{ padding:8px 14px; border-radius:8px; text-decoration:none; color:#fff; background:#61d999; }
+
+.header .logo { background: rgba(255,255,255,0.6); }
+
+/* Form styles */
+form label{ font-weight:600; display:block; margin-bottom:6px; color:#222; }
+form input[type="text"], form input[type="email"], form input[type="password"], form select { padding:10px; width:100%; border-radius:8px; border:1px solid #ddd; margin-bottom:12px; }
+
+/* Dashboard grid */
+.dashboard-grid{ display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:18px; }
+
+/* Make footer sit nicely */
+.footer{ position:relative; background:transparent; padding-top:30px; }
+
+@media (max-width:720px){
+  main.page{ margin:100px 12px; padding:16px; }
+  .nav{ display:none; }
+}
